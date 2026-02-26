@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUR 622 Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- DASHBOARD -->
+    <section id="dashboard" class="view active">
+        <header class="app-header">
+            <h1>NUR 622 Quiz</h1>
+            <p class="subtitle">Primary Care Across the Lifespan</p>
+        </header>
+
+        <div class="card">
+            <label for="exam-select" class="label">Select Exam</label>
+            <select id="exam-select">
+                <option value="exam1">Exam 1 — OB/GYN, GU, STI, Contraception</option>
+                <option value="exam2">Exam 2 — Men's Health, MSK, Rheumatology</option>
+            </select>
+        </div>
+
+        <div class="card">
+            <p class="label">Categories</p>
+            <div class="category-filters" id="category-filters">
+                <button class="cat-filter on" data-cat="OB">OB</button>
+                <button class="cat-filter on" data-cat="GYN">GYN</button>
+                <button class="cat-filter on" data-cat="GU">GU</button>
+                <button class="cat-filter on" data-cat="STI">STI</button>
+                <button class="cat-filter on" data-cat="Contraception">Contraception</button>
+                <button class="cat-filter on" data-cat="Diagnostic Testing">Dx Testing</button>
+            </div>
+        </div>
+
+        <div class="mode-buttons">
+            <button id="btn-study" class="mode-btn study-btn">
+                <span class="mode-icon">&#128218;</span>
+                <span class="mode-label">Study Mode</span>
+                <span class="mode-desc">Immediate feedback &amp; explanations</span>
+            </button>
+            <button id="btn-exam" class="mode-btn exam-btn">
+                <span class="mode-icon">&#9201;</span>
+                <span class="mode-label">Exam Mode</span>
+                <span class="mode-desc">50 questions &bull; 75 minutes</span>
+            </button>
+        </div>
+
+        <div class="card quick-stats" id="quick-stats"></div>
+
+        <button id="btn-stats" class="link-btn">View Full Stats</button>
+    </section>
+
+    <!-- QUIZ VIEW -->
+    <section id="quiz" class="view">
+        <div class="quiz-top-bar">
+            <button id="btn-quit" class="icon-btn" title="Quit">&larr; Quit</button>
+            <span id="progress-text" class="progress-text">1 / 50</span>
+            <span id="timer" class="timer hidden">75:00</span>
+        </div>
+        <div class="progress-bar-track">
+            <div id="progress-bar" class="progress-bar-fill"></div>
+        </div>
+
+        <div class="question-card" id="question-card">
+            <div class="q-meta">
+                <span id="q-category" class="cat-label">OB</span>
+                <span id="q-difficulty" class="diff-label">medium</span>
+                <button id="btn-flag" class="flag-btn" title="Flag for review">&#9734;</button>
+            </div>
+            <p id="q-stem" class="stem"></p>
+            <div id="q-options" class="options"></div>
+        </div>
+
+        <div id="feedback" class="feedback hidden">
+            <p id="feedback-result" class="feedback-result"></p>
+            <p id="feedback-explanation" class="feedback-explanation"></p>
+        </div>
+
+        <div class="quiz-nav">
+            <button id="btn-prev" class="nav-btn hidden">&larr; Previous</button>
+            <button id="btn-next" class="nav-btn hidden">Next &rarr;</button>
+            <button id="btn-submit-exam" class="nav-btn submit-btn hidden">Submit Exam</button>
+        </div>
+    </section>
+
+    <!-- RESULTS VIEW -->
+    <section id="results" class="view">
+        <h2 class="results-title">Exam Results</h2>
+        <div id="score-hero" class="score-hero"></div>
+        <div id="category-breakdown" class="category-breakdown"></div>
+        <h3>Question Review</h3>
+        <div id="results-review" class="results-review"></div>
+        <button id="btn-results-home" class="primary-btn">Back to Dashboard</button>
+    </section>
+
+    <!-- STATS VIEW -->
+    <section id="stats" class="view">
+        <div class="stats-header">
+            <button id="btn-stats-home" class="icon-btn">&larr; Back</button>
+            <h2>Performance Stats</h2>
+        </div>
+        <div class="card" id="stats-totals"></div>
+        <div class="card" id="stats-categories">
+            <h3>Accuracy by Category</h3>
+            <div id="cat-bars"></div>
+        </div>
+        <div class="card" id="stats-weakest">
+            <h3>Focus Areas</h3>
+            <p id="weakest-text"></p>
+        </div>
+        <div class="card" id="stats-history">
+            <h3>Exam History</h3>
+            <div id="exam-history-list"></div>
+        </div>
+        <button id="btn-reset" class="danger-btn">Reset All Progress</button>
+    </section>
+
+    <script src="questions/exam1.js"></script>
+    <script src="questions/exam2.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
