@@ -22,7 +22,7 @@ const STORAGE_PREFIX = 'nur622_';
 const state = {
     currentExam: 'exam1',
     mode: null,
-    activeCategories: [...CATEGORIES],
+    activeCategories: [...DEFAULT_CATEGORIES],
     allQuestions: [],
     sessionQuestions: [],
     currentIndex: 0,
@@ -622,7 +622,9 @@ function renderStats() {
 
     // Category bars
     const catStats = {};
-    CATEGORIES.forEach(c => catStats[c] = { correct: 0, total: 0 });
+    const examConfig = EXAMS.find(e => e.id === state.currentExam);
+    const cats = examConfig ? examConfig.categories : DEFAULT_CATEGORIES;
+    cats.forEach(c => catStats[c] = { correct: 0, total: 0 });
     entries.forEach(sr => {
         const q = state.allQuestions.find(q => q.id === sr.questionId);
         if (!q) return;
