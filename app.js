@@ -225,9 +225,8 @@ function startStudyMode() {
 
 function startReviewDueMode() {
     state.mode = 'study';
-    const filtered = filterByCategories(state.allQuestions);
     const progress = loadProgress();
-    const dueQuestions = filtered.filter(q => {
+    const dueQuestions = state.allQuestions.filter(q => {
         const sr = progress[q.id];
         return sr && isDue(sr);
     });
@@ -519,14 +518,16 @@ function renderDashboard() {
     }
 
     quickStats.classList.add('has-data');
-    const totalSeen = entries.reduce((sum, sr) => sum + sr.timesSeen, 0);
-    const totalCorrect = entries.reduce((sum, sr) => sum + sr.timesCorrect, 0);
+    const currentQIds = new Set(state.allQuestions.map(q => q.id));
+    const examEntries = entries.filter(sr => currentQIds.has(sr.questionId));
+    const totalSeen = examEntries.reduce((sum, sr) => sum + sr.timesSeen, 0);
+    const totalCorrect = examEntries.reduce((sum, sr) => sum + sr.timesCorrect, 0);
     const accuracy = totalSeen > 0 ? Math.round(totalCorrect / totalSeen * 100) : 0;
-    const dueCount = entries.filter(sr => isDue(sr)).length;
+    const dueCount = examEntries.filter(sr => isDue(sr)).length;
 
     // Weakest category
     const catStats = {};
-    entries.forEach(sr => {
+    examEntries.forEach(sr => {
         const q = state.allQuestions.find(q => q.id === sr.questionId);
         if (!q) return;
         if (!catStats[q.category]) catStats[q.category] = { correct: 0, total: 0 };
