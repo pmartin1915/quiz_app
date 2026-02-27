@@ -223,6 +223,32 @@ function startStudyMode() {
     showQuestion();
 }
 
+function startReviewDueMode() {
+    state.mode = 'study';
+    const filtered = filterByCategories(state.allQuestions);
+    const progress = loadProgress();
+    const dueQuestions = filtered.filter(q => {
+        const sr = progress[q.id];
+        return sr && isDue(sr);
+    });
+    if (dueQuestions.length === 0) {
+        alert('No questions are due for review right now!');
+        return;
+    }
+    dueQuestions.sort((a, b) => {
+        const srA = progress[a.id], srB = progress[b.id];
+        return srA.easeFactor - srB.easeFactor;
+    });
+    state.sessionQuestions = dueQuestions;
+    state.currentIndex = 0;
+    state.answers = state.sessionQuestions.map(() => null);
+    showView('quiz');
+    document.getElementById('timer').classList.add('hidden');
+    document.getElementById('btn-prev').classList.add('hidden');
+    document.getElementById('btn-submit-exam').classList.add('hidden');
+    showQuestion();
+}
+
 function startExamMode() {
     const examConfig = EXAMS.find(e => e.id === state.currentExam);
     const count = examConfig ? examConfig.questionCount : EXAM_QUESTION_COUNT;
@@ -706,6 +732,7 @@ function updateCategoryFilters() {
 function initEventListeners() {
     // Mode buttons
     document.getElementById('btn-study').addEventListener('click', startStudyMode);
+    document.getElementById('btn-review-due').addEventListener('click', startReviewDueMode);
     document.getElementById('btn-exam').addEventListener('click', startExamMode);
 
     // Quiz nav

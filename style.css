@@ -109,6 +109,7 @@ select {
 .mode-desc { font-size: 13px; color: #888; margin-top: 2px; }
 
 .study-btn:hover { border-color: #2e7d32; }
+.review-btn:hover { border-color: #d84315; }
 .exam-btn:hover { border-color: #e65100; }
 
 .quick-stats {
