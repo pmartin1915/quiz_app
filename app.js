@@ -7,7 +7,8 @@
 // ============================================================
 const EXAMS = [
     { id: 'exam1', name: 'Exam 1', data: 'EXAM1_DATA', categories: ['OB', 'GYN', 'GU', 'STI', 'Contraception', 'Diagnostic Testing'], questionCount: 50, timeSeconds: 75 * 60 },
-    { id: 'exam2', name: 'Exam 2', data: 'EXAM2_DATA', categories: ["Men's Health", 'Musculoskeletal', 'Rheumatology & Immunology'], questionCount: 70, timeSeconds: 105 * 60 }
+    { id: 'exam2', name: 'Exam 2', data: 'EXAM2_DATA', categories: ["Men's Health", 'Musculoskeletal', 'Rheumatology & Immunology'], questionCount: 70, timeSeconds: 105 * 60 },
+    { id: 'exam2oh', name: 'Exam 2 - Office Hours Review', data: 'EXAM2_OH_DATA', categories: ["Men's Health", 'Musculoskeletal', 'Rheumatology & Immunology'], questionCount: 12, timeSeconds: 18 * 60 }
 ];
 const DEFAULT_CATEGORIES = ['OB', 'GYN', 'GU', 'STI', 'Contraception', 'Diagnostic Testing'];
 const EXAM_QUESTION_COUNT = 50;
