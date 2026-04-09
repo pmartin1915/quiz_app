@@ -110,6 +110,7 @@ select {
 
 .study-btn:hover { border-color: #2e7d32; }
 .review-btn:hover { border-color: #d84315; }
+.unseen-btn:hover { border-color: #1565c0; }
 .exam-btn:hover { border-color: #e65100; }
 
 .quick-stats {

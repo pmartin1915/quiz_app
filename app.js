@@ -9,7 +9,8 @@ const EXAMS = [
     { id: 'exam1', name: 'Exam 1', data: 'EXAM1_DATA', categories: ['OB', 'GYN', 'GU', 'STI', 'Contraception', 'Diagnostic Testing'], questionCount: 50, timeSeconds: 75 * 60 },
     { id: 'exam2', name: 'Exam 2', data: 'EXAM2_DATA', categories: ["Men's Health", 'Musculoskeletal', 'Rheumatology & Immunology'], questionCount: 70, timeSeconds: 105 * 60 },
     { id: 'exam2oh', name: 'Exam 2 - Office Hours Review', data: 'EXAM2_OH_DATA', categories: ["Men's Health", 'Musculoskeletal', 'Rheumatology & Immunology'], questionCount: 12, timeSeconds: 18 * 60 },
-    { id: 'exam3', name: 'Exam 3', data: 'EXAM3_DATA', categories: ['Hematology', 'Infectious Diseases', 'Genetics & Genomics'], questionCount: 70, timeSeconds: 105 * 60 }
+    { id: 'exam3', name: 'Exam 3', data: 'EXAM3_DATA', categories: ['Hematology', 'Infectious Diseases', 'Genetics & Genomics'], questionCount: 70, timeSeconds: 105 * 60 },
+    { id: 'exam4', name: 'Exam 4', data: 'EXAM4_DATA', categories: ['Neurology', 'Mental Health', 'Hematology', 'Infectious Diseases', 'Cardiovascular', 'OB', 'OB/GYN', 'GYN', 'MSK', 'Rheumatology', 'GI', 'Endocrine', 'Integumentary', 'Pulmonary', 'GU', "Men's Health", 'Genetics', 'HEENT'], questionCount: 100, timeSeconds: 150 * 60 }
 ];
 const DEFAULT_CATEGORIES = ['OB', 'GYN', 'GU', 'STI', 'Contraception', 'Diagnostic Testing'];
 const EXAM_QUESTION_COUNT = 50;
@@ -250,6 +251,26 @@ function startReviewDueMode() {
     showQuestion();
 }
 
+function startUnseenMode() {
+    state.mode = 'study';
+    const progress = loadProgress();
+    const filtered = filterByCategories(state.allQuestions);
+    const unseen = filtered.filter(q => !progress[q.id]);
+    if (unseen.length === 0) {
+        alert('You\'ve seen all questions in the selected categories! Try Study Mode or Review Due instead.');
+        return;
+    }
+    shuffleArray(unseen);
+    state.sessionQuestions = unseen;
+    state.currentIndex = 0;
+    state.answers = state.sessionQuestions.map(() => null);
+    showView('quiz');
+    document.getElementById('timer').classList.add('hidden');
+    document.getElementById('btn-prev').classList.add('hidden');
+    document.getElementById('btn-submit-exam').classList.add('hidden');
+    showQuestion();
+}
+
 function startExamMode() {
     const examConfig = EXAMS.find(e => e.id === state.currentExam);
     const count = examConfig ? examConfig.questionCount : EXAM_QUESTION_COUNT;
@@ -323,8 +344,31 @@ function showQuestion() {
 
     if (state.mode === 'study') {
         nextBtn.classList.add('hidden');
-        prevBtn.classList.add('hidden');
+        prevBtn.classList.toggle('hidden', state.currentIndex === 0);
         submitBtn.classList.add('hidden');
+
+        // If already answered, restore answer state
+        if (state.answers[state.currentIndex] !== null) {
+            const answered = state.answers[state.currentIndex];
+            const btns = optContainer.querySelectorAll('.option-btn');
+            btns.forEach((btn, i) => {
+                btn.style.pointerEvents = 'none';
+                if (i === q.correct) {
+                    btn.classList.add('correct');
+                } else if (i === answered && answered !== q.correct) {
+                    btn.classList.add('incorrect');
+                } else {
+                    btn.classList.add('dimmed');
+                }
+            });
+            const fb = document.getElementById('feedback');
+            fb.classList.remove('hidden', 'correct-fb', 'incorrect-fb');
+            fb.classList.add(answered === q.correct ? 'correct-fb' : 'incorrect-fb');
+            document.getElementById('feedback-result').textContent = answered === q.correct ? 'Correct!' : 'Incorrect';
+            document.getElementById('feedback-result').className = 'feedback-result ' + (answered === q.correct ? 'correct-text' : 'incorrect-text');
+            document.getElementById('feedback-explanation').textContent = q.explanation;
+            nextBtn.classList.remove('hidden');
+        }
     } else {
         // Exam mode - show prev/next as needed
         prevBtn.classList.toggle('hidden', state.currentIndex === 0);
@@ -566,6 +610,16 @@ function renderDashboard() {
             </div>` : ''}
         </div>
     `;
+
+    // Update Unseen button with dynamic count
+    const activeQs = filterByCategories(state.allQuestions);
+    const unseenCount = activeQs.filter(q => !progress[q.id]).length;
+    const unseenDesc = document.querySelector('.unseen-btn .mode-desc');
+    if (unseenDesc) {
+        unseenDesc.textContent = unseenCount > 0
+            ? `${unseenCount} unseen questions available`
+            : 'All questions seen in selected categories';
+    }
 }
 
 function renderResults(correct, total, catBreakdown) {
@@ -736,6 +790,7 @@ function initEventListeners() {
     // Mode buttons
     document.getElementById('btn-study').addEventListener('click', startStudyMode);
     document.getElementById('btn-review-due').addEventListener('click', startReviewDueMode);
+    document.getElementById('btn-unseen').addEventListener('click', startUnseenMode);
     document.getElementById('btn-exam').addEventListener('click', startExamMode);
 
     // Quiz nav
