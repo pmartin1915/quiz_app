@@ -217,10 +217,10 @@ var EXAM4_DATA = {
     "options": [
       "Schedule an outpatient MRI for next week and return to clinic in one month",
       "Start aspirin 81 mg daily and have him return to clinic in 2 weeks",
-      "Arrange same-day or next-day urgent evaluation including brain imaging, vascular imaging, and cardiac workup, and initiate antiplatelet therapy",
-      "Admit to the hospital for IV heparin infusion given his high ABCD2 score"
+      "Admit to the hospital for IV heparin infusion given his high ABCD2 score",
+      "Arrange same-day or next-day urgent evaluation including brain imaging, vascular imaging, and cardiac workup, and initiate antiplatelet therapy"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "C is correct because this patient had a TIA (transient neurologic deficit resolving within 24 hours without infarction) with a high ABCD2 score of 6, indicating 8–12% stroke risk within 48 hours. TIA is a medical emergency requiring same-day or urgent workup: MRI with DWI (to detect small infarcts), carotid imaging (duplex ultrasound or CTA), cardiac evaluation (EKG, echocardiography, Holter monitoring), and immediate initiation of dual antiplatelet therapy (aspirin + clopidogrel for 21 days per recent guidelines) plus statin therapy. A is incorrect because delaying workup for a week is dangerous given the high early stroke risk; a TIA is a warning sign that requires urgent action, not routine follow-up. B is incorrect because aspirin monotherapy is insufficient for high-risk TIA; dual antiplatelet therapy reduces early stroke risk. D is incorrect because IV heparin is not the standard of care for TIA — antiplatelet therapy is the preferred approach for non-cardioembolic TIA.",
     "source": "Module 11 - Neurological System",
     "difficulty": "hard"
@@ -537,10 +537,10 @@ var EXAM4_DATA = {
     "options": [
       "Methylprednisolone 1000 mg IV daily for 3–5 days",
       "Intravenous immunoglobulin (IVIG) 0.4 g/kg/day for 5 days",
-      "Plasmapheresis or IVIG, both equally effective; steroids would not help",
-      "Observation only; GBS resolves spontaneously without treatment in most patients"
+      "Observation only; GBS resolves spontaneously without treatment in most patients",
+      "Plasmapheresis or IVIG, both equally effective; steroids would not help"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "C is correct because both IVIG and plasmapheresis are equally effective treatments for GBS and shorten the duration of the illness and accelerate recovery. The choice depends on availability, patient factors, and center experience. Steroids (methylprednisolone) are NOT effective for GBS — this is one of the highest-yield exceptions in neurology because most inflammatory conditions improve with steroids, but GBS does not. A is incorrect because IV methylprednisolone is the treatment for MS relapses, not GBS. Using steroids in GBS is a classic trap answer that is explicitly incorrect. B is incorrect only because it omits plasmapheresis as an equally valid option — IVIG alone is presented as the only option, which is incomplete. D is incorrect because while many GBS patients do recover, it can take months without treatment, and treatment significantly accelerates recovery and reduces residual disability; severe cases can progress to complete paralysis and respiratory failure.",
     "source": "Module 11 - Neurological System",
     "difficulty": "medium"
@@ -712,11 +712,11 @@ var EXAM4_DATA = {
     "stem": "A 62-year-old man with hypertension and atrial fibrillation presents with acute onset of vertigo, nausea, vomiting, and difficulty walking. He states the room is 'spinning constantly' — it is not triggered by position changes. On exam, he has direction-changing nystagmus, his finger-nose test is abnormal bilaterally, gait is severely ataxic, and he has dysarthria. His blood pressure is 178/102 mmHg. What is the most appropriate next step?",
     "options": [
       "Perform the Epley maneuver and prescribe meclizine",
-      "Diagnose Meniere's disease and advise a low-sodium diet",
       "Treat as a neurological emergency; immediately transfer to the ED for urgent CT/MRI to rule out stroke or cerebellar hemorrhage",
+      "Diagnose Meniere's disease and advise a low-sodium diet",
       "Prescribe ondansetron and follow up tomorrow"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "C is correct because this patient has central vertigo, which is a neurological emergency. The red flag features of central vertigo are all present: sustained constant vertigo (not positional/brief), direction-changing nystagmus, cerebellar signs (ataxia, dysmetria on finger-nose, dysarthria), severe gait impairment, and vascular risk factors (hypertension, atrial fibrillation). This presentation is consistent with posterior fossa stroke (cerebellar or brainstem). The HINTS exam findings (Normal head impulse + direction-changing nystagmus + skew deviation) indicate a central lesion. This requires immediate CT/MRI of the brain and urgent neurological care — cerebellar stroke/hemorrhage can cause herniation and death. A is incorrect because the Epley maneuver is for BPPV (peripheral), which presents with brief positional vertigo and no neurological signs. Performing Epley on a patient with a cerebellar stroke would delay life-saving diagnosis. B is incorrect because Meniere's disease presents with episodic vertigo lasting 20 min–several hours plus unilateral hearing loss and tinnitus — not constant vertigo with cerebellar signs and neurological deficits. D is incorrect because this is a vascular emergency; prescribing an antiemetic and delaying evaluation is dangerous and potentially fatal.",
     "source": "Module 11 - Neurological System",
     "difficulty": "hard"
@@ -775,12 +775,12 @@ var EXAM4_DATA = {
     "subcategory": "Neurodegenerative Disorders",
     "stem": "A 77-year-old man presents with a 1-year history of slowly worsening difficulty walking, urinary incontinence that developed over the same period, and his wife reports increasing forgetfulness. He walks with very small shuffling steps without picking his feet up off the floor. MRI brain shows markedly enlarged ventricles disproportionate to the degree of sulcal atrophy. What is the most likely diagnosis and the treatment that often produces rapid improvement?",
     "options": [
-      "Parkinson's disease; start levodopa/carbidopa",
-      "Vascular dementia; optimize cardiovascular risk factors",
       "Normal pressure hydrocephalus; ventriculoperitoneal shunt placement",
+      "Vascular dementia; optimize cardiovascular risk factors",
+      "Parkinson's disease; start levodopa/carbidopa",
       "Alzheimer's disease with gait apraxia; start memantine"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "C is correct because this patient has the classic triad of Normal Pressure Hydrocephalus (NPH): 'Wet, Wobbly, Wacky' — urinary incontinence (Wet), magnetic gait with feet dragging (Wobbly), and cognitive impairment (Wacky). The MRI finding of enlarged ventricles out of proportion to sulcal atrophy is classic. NPH is a treatable (reversible) cause of dementia, and VP shunt placement often results in rapid and dramatic improvement, particularly in gait. A is incorrect because while Parkinson's causes a shuffling gait and can cause cognitive decline (Parkinson's Disease Dementia), it also has resting tremor and cogwheel rigidity — not mentioned here. The MRI finding and incontinence appearing concurrently with gait changes point to NPH. B is incorrect because vascular dementia follows a stepwise progression linked to prior strokes with focal neurological signs and executive dysfunction — not the triad of gait/incontinence/cognition with enlarged ventricles. D is incorrect because Alzheimer's does not characteristically cause prominent gait disturbance early in the course, incontinence is late, and the MRI would show cortical atrophy rather than disproportionate ventricular enlargement.",
     "source": "Module 11 - Neurological System",
     "difficulty": "medium"
@@ -824,11 +824,11 @@ var EXAM4_DATA = {
     "stem": "A 34-year-old man is diagnosed with MDD and started on sertraline 50 mg daily. He returns at 4 weeks reporting modest improvement but still significant depressive symptoms. He has tolerated the medication well. What is the most appropriate next step?",
     "options": [
       "Switch to a different SSRI immediately",
-      "Add bupropion augmentation now",
       "Increase sertraline to 100 mg and reassess in 4 more weeks",
+      "Add bupropion augmentation now",
       "Refer to psychiatry for failure to respond"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "C is correct. The standard approach is to titrate to a mid-range therapeutic dose before declaring treatment failure. At 4 weeks on 50 mg (starting dose), the patient has had a partial response with good tolerability — this warrants dose increase to 100 mg and another 4-week trial before considering a switch or augmentation. A is incorrect: switching is premature after only 4 weeks at starting dose with partial response and good tolerability. B is incorrect: augmentation is considered after an adequate trial (therapeutic dose x4-6 weeks), not at 4 weeks on starting dose. D is incorrect: referral criteria require 2-3 failed adequate trials (therapeutic dose x1 month each); this patient has completed only one inadequate trial.",
     "source": "Module 12 - Psychosocial and Mental Health Disorders",
     "difficulty": "medium"
@@ -841,10 +841,10 @@ var EXAM4_DATA = {
     "options": [
       "Paroxetine (Paxil)",
       "Mirtazapine (Remeron)",
-      "Bupropion (Wellbutrin)",
-      "Amitriptyline (Elavil)"
+      "Amitriptyline (Elavil)",
+      "Bupropion (Wellbutrin)"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "C is correct. Bupropion (NDRI — norepinephrine-dopamine reuptake inhibitor) is activating/energizing, is weight-neutral or associated with modest weight loss, and is the best fit for atypical MDD features of hypersomnia and weight gain. A is incorrect: paroxetine is the most sedating and most weight-gain-associated SSRI — the worst choice for this patient. B is incorrect: mirtazapine (NaSSA) causes significant sedation and weight gain — it would worsen her complaints. D is incorrect: amitriptyline (TCA) is associated with significant weight gain, sedation, and dangerous anticholinergic side effects — not a first- or second-line agent.",
     "source": "Module 12 - Psychosocial and Mental Health Disorders",
     "difficulty": "medium"
@@ -857,10 +857,10 @@ var EXAM4_DATA = {
     "options": [
       "5 criteria; yes, she has MDD",
       "5 criteria; no, she needs at least 2 weeks but must include depressed mood or anhedonia — she qualifies",
-      "5 criteria; yes — she meets the minimum 5 of 9 criteria for at least 2 weeks with functional impairment and no history of mania",
-      "3 criteria; no, she needs at least 7 criteria for MDD"
+      "3 criteria; no, she needs at least 7 criteria for MDD",
+      "5 criteria; yes — she meets the minimum 5 of 9 criteria for at least 2 weeks with functional impairment and no history of mania"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "C is correct. MDD requires: 5 or more of 9 symptoms for at least 2 weeks; at least ONE must be either depressed mood or anhedonia; symptoms cause clinically significant distress or impairment; no manic/hypomanic history. This patient has 5 symptoms (meeting the threshold), for 3 weeks (>2 weeks), with work impairment, with both core symptoms present, and no mania history — she meets full criteria for MDD. A is technically correct on count but the explanation is incomplete. B is incorrect in format. D is incorrect: the threshold is 5 of 9 symptoms, not 7.",
     "source": "Module 12 - Psychosocial and Mental Health Disorders",
     "difficulty": "easy"
@@ -1351,12 +1351,12 @@ var EXAM4_DATA = {
     "subcategory": "Substance Use Disorders",
     "stem": "A 45-year-old man presents for a routine visit. AUDIT-C screening is positive. He reports drinking 6-8 beers daily for the past 5 years and has tried to cut back multiple times without success. He continues despite his wife threatening to leave and his employer warning him about performance. He denies withdrawal symptoms when not drinking. Using DSM-5 criteria, what MINIMUM severity of alcohol use disorder does he have?",
     "options": [
-      "Mild AUD (2-3 criteria)",
-      "Moderate AUD (4-5 criteria)",
       "Severe AUD (6 or more criteria)",
+      "Moderate AUD (4-5 criteria)",
+      "Mild AUD (2-3 criteria)",
       "At-risk drinking, not AUD — he must have withdrawal to qualify"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "C is correct. DSM-5 AUD is classified by number of criteria met (of 11 total): Mild = 2-3, Moderate = 4-5, Severe = 6+. This patient meets at minimum: (1) persistent desire/unsuccessful efforts to cut back, (2) continued use despite interpersonal problems (marriage), (3) continued use despite recurrent social/occupational consequences (job warning), (4) drinking larger amounts or for longer than intended (6-8 beers daily), (5) a great deal of time spent drinking. That is already 5 criteria — Moderate. Given the pattern described, he likely meets additional criteria, potentially reaching Severe. A is incorrect: 2-3 criteria = Mild; this patient's presentation clearly exceeds mild. D is incorrect: withdrawal symptoms are one of 11 criteria; their absence does not rule out AUD — physical dependence is not required for the diagnosis.",
     "source": "Module 12 - Psychosocial and Mental Health Disorders",
     "difficulty": "medium"
@@ -1367,12 +1367,12 @@ var EXAM4_DATA = {
     "subcategory": "Substance Use Disorders",
     "stem": "A 38-year-old woman with moderate AUD wants to stop drinking and is asking about medication options. She has no liver disease and is currently sober for 2 weeks. Which medication is the FDA-approved FIRST-LINE pharmacotherapy for alcohol use disorder?",
     "options": [
-      "Disulfiram (Antabuse) — creates unpleasant reaction to alcohol to deter use",
-      "Acamprosate (Campral) — reduces craving and supports abstinence",
       "Naltrexone (Vivitrol/ReVia) — blocks opioid receptors, reduces craving and reward",
+      "Acamprosate (Campral) — reduces craving and supports abstinence",
+      "Disulfiram (Antabuse) — creates unpleasant reaction to alcohol to deter use",
       "Topiramate (Topamax) — off-label but effective for craving reduction"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "C is correct. Naltrexone (oral ReVia or monthly injection Vivitrol) is the first-line FDA-approved pharmacotherapy for AUD. It works by blocking opioid mu-receptors, reducing the euphoric/rewarding effects of alcohol and decreasing craving. It is effective for both abstinence and reduction-of-use goals. It requires liver function consideration (contraindicated in acute hepatitis or liver failure). A is incorrect: disulfiram (Antabuse) is third-line — it creates a severe, aversive reaction when alcohol is consumed (flushing, nausea, vomiting, hypotension) and requires motivated patients; poor adherence limits effectiveness. B is incorrect: acamprosate is second-line — effective for reducing craving and supporting abstinence once achieved, but inferior evidence compared to naltrexone as monotherapy. D is incorrect: topiramate has evidence but is not FDA-approved for AUD — it is an off-label option when first- and second-line agents fail.",
     "source": "Module 12 - Psychosocial and Mental Health Disorders",
     "difficulty": "medium"
@@ -2376,11 +2376,11 @@ var EXAM4_DATA = {
     "stem": "A 45-year-old male with a history of lumbar disc herniation presents with a 2-day history of worsening bilateral leg weakness and pain radiating into both legs. This morning he noticed he could not void and had to catheterize himself. He also reports decreased sensation in the perineum and inner thighs. What is the most appropriate next step?",
     "options": [
       "Schedule an outpatient MRI lumbar spine within 1 week",
-      "Prescribe NSAIDs and a methylprednisolone dose pack and reassess in 48 hours",
       "STAT MRI lumbar spine and urgent neurosurgical consultation",
+      "Prescribe NSAIDs and a methylprednisolone dose pack and reassess in 48 hours",
       "Obtain plain radiographs of the lumbar spine and refer to orthopedics"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "This is cauda equina syndrome (CES): bilateral sciatica, urinary retention requiring catheterization, and saddle anesthesia (decreased perineal/inner thigh sensation). CES is a neurosurgical emergency — any delay in decompression risks permanent bowel, bladder, and sexual dysfunction. STAT MRI is the imaging of choice and must be obtained immediately alongside urgent neurosurgical consultation. Option A is catastrophically wrong — a 1-week MRI in CES results in permanent deficits. Option B is wrong because steroids and NSAIDs have no role in this emergency; this needs decompression surgery, not anti-inflammatories. Option D is wrong because plain films cannot visualize soft tissue compression of the cauda equina; MRI is mandatory, and orthopedic referral wastes time when neurosurgery is needed.",
     "source": "Comprehensive Review",
     "difficulty": "hard"
@@ -2751,6 +2751,166 @@ var EXAM4_DATA = {
     "correct": 1,
     "explanation": "Cell-free fetal DNA (NIPT) is a screening test, and a positive result requires confirmatory diagnostic testing (option B). This is a critical distinction: Screening tests estimate risk — they are not diagnostic. NIPT analyzes fetal DNA fragments in maternal blood to calculate the probability of chromosomal abnormalities. NIPT has high sensitivity (~99%) and specificity (~99.9%) for Trisomy 21, but false positives occur (especially in low-risk populations). A positive NIPT must be confirmed with a diagnostic test (amniocentesis or CVS). Diagnostic tests are definitive: Amniocentesis (15–20 weeks): direct karyotype/chromosomal microarray of amniotic fluid cells. Chorionic villus sampling (CVS, 10–13 weeks): direct karyotype from placental tissue — can be done earlier than amniocentesis. A: Advanced maternal age (≥35) is a risk factor that increases the probability of Trisomy 21, but it is NOT diagnostic. AMA is an indication to discuss/offer screening and diagnostic options — not to proceed directly to amniocentesis. Age alone does not confirm a chromosomal abnormality. C: Elevated nuchal translucency (NT) on ultrasound is a screening finding that increases risk — it is not diagnostic. NT is part of first-trimester combined screening (NT + serum PAPP-A + free beta-hCG). Elevated NT is also associated with cardiac defects and other abnormalities. D: CVS is the opposite of a screening test — it is a diagnostic invasive procedure that provides a definitive karyotype. Screening tests are noninvasive (blood draw, ultrasound); diagnostic tests are invasive (amniocentesis, CVS).",
     "source": "Comprehensive Review",
+    "difficulty": "medium"
+  },
+  {
+    "id": 173,
+    "category": "MSK",
+    "subcategory": "Pediatric Hip Pain",
+    "stem": "A 5-year-old boy is brought in by his mother for right hip pain and a limp that started 2 days ago. He had an upper respiratory infection last week. He is afebrile with a temperature of 37.1°C. He is able to bear weight but walks with an antalgic gait. On exam, there is limited internal rotation of the right hip. CBC shows WBC 9,200 and ESR 18 mm/hr. What is the most likely diagnosis and appropriate management?",
+    "options": [
+      "Septic arthritis — admit for IV antibiotics and joint aspiration",
+      "Legg-Calvé-Perthes disease — order hip MRI and refer to orthopedics",
+      "Toxic (transient) synovitis — NSAIDs, rest, and close outpatient follow-up",
+      "Slipped capital femoral epiphysis — non-weight-bearing and urgent orthopedic referral"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. This is classic toxic (transient) synovitis: child age 3-8, hip pain with limp following a viral illness, low-grade or absent fever, able to bear weight, and only mildly elevated inflammatory markers (ESR 18). Management is conservative — NSAIDs, rest as tolerated, and follow-up in 24-48 hours. A is incorrect because septic arthritis presents with high fever, inability to bear weight, toxic appearance, and markedly elevated ESR/CRP (typically ESR >40). This child is afebrile with mild labs. B is incorrect because Legg-Calvé-Perthes is avascular necrosis of the femoral head, presents with insidious onset over weeks, and the child is typically ages 4-10 without a preceding viral illness. C is incorrect because SCFE occurs in obese adolescents (ages 10-16), not 5-year-olds, and presents with groin/thigh pain and obligate external rotation.",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "medium"
+  },
+  {
+    "id": 174,
+    "category": "MSK",
+    "subcategory": "Pediatric Orthopedics",
+    "stem": "A 4-year-old girl is brought to the clinic by her parents who are concerned that her legs look 'crooked.' On exam, she has bilateral symmetric valgus (knock-knee) alignment. She runs and plays without pain or difficulty. There is no joint swelling, tenderness, or limb-length discrepancy. What is the most appropriate management?",
+    "options": [
+      "Refer to orthopedics for bracing to correct the alignment before skeletal maturity",
+      "Order bilateral knee X-rays to rule out rickets or Blount disease",
+      "Reassurance and observation — physiologic genu valgum resolves spontaneously by age 7",
+      "Start vitamin D supplementation and calcium to promote normal bone development"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. Bilateral symmetric genu valgum (knock-knees) in a child ages 2-5 without pain, functional impairment, or asymmetry is a normal developmental variant (physiologic genu valgum). It typically resolves by age 7. Management is reassurance and observation with follow-up every 4-6 months. A is incorrect because bracing is not indicated for physiologic genu valgum — it resolves spontaneously. Bracing would only be considered for pathologic causes. B is incorrect because X-rays are not needed when the presentation is classic physiologic genu valgum (bilateral, symmetric, painless, age-appropriate). Imaging is reserved for asymmetric, painful, or progressive cases. D is incorrect because this is a normal developmental variant, not a nutritional deficiency. Vitamin D would only be indicated if rickets were suspected (asymmetric bowing, widened metaphyses, poor nutrition history).",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "easy"
+  },
+  {
+    "id": 175,
+    "category": "MSK",
+    "subcategory": "Lumbar Radiculopathy",
+    "stem": "A 42-year-old man presents with 3 weeks of low back pain radiating down his right posterior leg to the lateral foot. He reports numbness on the lateral aspect of his right foot. On exam, straight leg raise is positive on the right at 40 degrees. The right Achilles reflex is diminished. He has no bowel or bladder changes and no progressive weakness. What is the most appropriate initial management?",
+    "options": [
+      "Urgent MRI of the lumbar spine and neurosurgery referral",
+      "Epidural steroid injection for immediate pain relief",
+      "Conservative management: NSAIDs, activity as tolerated, and physical therapy",
+      "Prescribe oxycodone for pain control and strict bed rest for 2 weeks"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. This patient has lumbar disc herniation with S1 radiculopathy (posterior leg pain, lateral foot numbness, diminished Achilles reflex, positive SLR). In the ABSENCE of red flags (no progressive weakness, no bowel/bladder dysfunction, no cauda equina signs), initial management is conservative: NSAIDs or acetaminophen, remaining active as tolerated, and physical therapy. Most patients improve within 6-8 weeks. MRI is not indicated initially unless symptoms persist beyond 6 weeks or neurologic deficits progress. A is incorrect because urgent MRI and neurosurgery are reserved for red flags — progressive weakness, bowel/bladder changes (cauda equina), or failure to improve after 6 weeks of conservative care. B is incorrect because epidural steroid injections are a second-line option considered after failure of conservative management, not a first-line treatment. D is incorrect because opioids are not first-line for radiculopathy, and strict bed rest is harmful — evidence shows that staying active as tolerated leads to better outcomes than bed rest.",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "medium"
+  },
+  {
+    "id": 176,
+    "category": "MSK",
+    "subcategory": "Vertebral Compression Fracture",
+    "stem": "A 74-year-old woman with known osteoporosis presents with acute mid-back pain that started after she bent over to pick up groceries. She points to a specific area in her thoracolumbar spine that is exquisitely tender to palpation. She has no leg weakness, numbness, or bowel/bladder changes. What is the most appropriate initial imaging?",
+    "options": [
+      "No imaging needed — treat conservatively as mechanical low back pain",
+      "MRI of the thoracolumbar spine to evaluate for cord compression",
+      "Plain X-ray of the thoracolumbar spine",
+      "CT of the abdomen and pelvis to evaluate for aortic pathology"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. This presentation is consistent with a vertebral compression fracture: elderly patient with known osteoporosis, acute focal vertebral tenderness after minimal trauma (bending). Plain X-ray is the appropriate initial imaging modality — it can confirm the fracture and guide management (pain control, bracing, and optimization of osteoporosis treatment). A is incorrect — this is NOT simple mechanical back pain. The red flags here (osteoporosis + acute focal vertebral tenderness + minimal trauma mechanism) mandate imaging. Treating without imaging risks missing a compression fracture. B is incorrect because MRI is reserved for cases with neurologic symptoms (weakness, numbness, bowel/bladder changes) or suspected malignancy. This patient has no neurologic deficits, so X-ray is the appropriate first step. D is incorrect because the focal vertebral tenderness and osteoporosis history point to compression fracture, not aortic pathology. CT angiography would be considered if there were signs of aortic dissection (tearing pain, unequal pulses, hemodynamic instability).",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "medium"
+  },
+  {
+    "id": 177,
+    "category": "MSK",
+    "subcategory": "Hip Osteoarthritis",
+    "stem": "A 63-year-old woman presents with 4 months of gradually worsening right groin pain. The pain is worse with walking and climbing stairs and improves with rest. She reports about 20 minutes of morning stiffness that resolves with movement. On exam, there is decreased internal rotation of the right hip and pain with passive motion. What is the most appropriate initial imaging?",
+    "options": [
+      "MRI of the right hip to evaluate for avascular necrosis",
+      "CT scan of the pelvis for detailed bony assessment",
+      "Plain radiographs of the right hip (AP pelvis and lateral)",
+      "No imaging needed — clinical diagnosis is sufficient to start treatment"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. This presentation is consistent with hip osteoarthritis: gradual onset groin pain, short-duration morning stiffness (<30 minutes), pain with weight-bearing that improves with rest, and decreased internal rotation. Plain radiographs are the appropriate initial imaging — they may show joint space narrowing, osteophytes, and subchondral sclerosis, confirming the diagnosis. A is incorrect because MRI is not first-line for suspected osteoarthritis. MRI is reserved for atypical presentations or concern for alternative diagnoses such as avascular necrosis (which typically occurs in younger, active patients with risk factors like steroid use or sickle cell disease). B is incorrect because CT is not the initial imaging for degenerative joint disease — it adds radiation without significant diagnostic advantage over plain films for this indication. D is incorrect because while the clinical picture is suggestive, imaging confirms the diagnosis, establishes a baseline, and rules out other pathology before initiating a treatment plan.",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "easy"
+  },
+  {
+    "id": 178,
+    "category": "OB",
+    "subcategory": "Postpartum Endometritis",
+    "stem": "A 28-year-old woman presents 4 days after an emergency cesarean delivery with fever of 38.9°C, uterine tenderness, and foul-smelling lochia. Her heart rate is 104 bpm. She is currently breastfeeding. What is the most appropriate management?",
+    "options": [
+      "Obtain pelvic ultrasound and CT scan before starting any treatment",
+      "Prescribe oral metronidazole alone and arrange follow-up in one week",
+      "Start broad-spectrum antibiotics compatible with breastfeeding and arrange close follow-up",
+      "Reassure the patient that low-grade fevers are normal post-cesarean and recheck in 48 hours"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. This is postpartum endometritis — infection of the uterus occurring 3-5 days after delivery, with increased risk after cesarean section. The classic presentation is fever, uterine tenderness, tachycardia, and abnormal/foul-smelling lochia. Management is prompt initiation of broad-spectrum antibiotics compatible with breastfeeding (e.g., clindamycin plus gentamicin, or clindamycin plus augmentin). Imaging is NOT required before starting treatment when the clinical picture is clear. A is incorrect because imaging should not delay treatment in a clinically obvious presentation. Ultrasound may be considered if there is concern for retained products or abscess, but the diagnosis here is clinical and treatment should begin immediately. B is incorrect because oral metronidazole alone does not provide adequate coverage — endometritis is typically polymicrobial and requires broad-spectrum combination therapy. D is incorrect — 38.9°C with uterine tenderness and foul lochia is NOT normal. This is a clinically significant infection requiring prompt treatment to prevent sepsis.",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "medium"
+  },
+  {
+    "id": 179,
+    "category": "Diagnostic Testing",
+    "subcategory": "Inflammatory Markers",
+    "stem": "A 48-year-old woman presents with 3 months of bilateral hand pain, morning stiffness lasting over an hour, and swelling of her MCP and PIP joints. You suspect inflammatory arthritis such as rheumatoid arthritis. Which initial laboratory test is most appropriate to assess for systemic inflammation and support your clinical suspicion?",
+    "options": [
+      "Antinuclear antibody (ANA)",
+      "Rheumatoid factor (RF) and anti-CCP antibodies",
+      "C-reactive protein (CRP) and/or erythrocyte sedimentation rate (ESR)",
+      "Comprehensive metabolic panel (CMP)"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. When the clinical presentation suggests inflammatory arthritis, CRP and/or ESR are the most appropriate initial tests to confirm systemic inflammation, support the diagnosis, and establish baseline disease activity. These are nonspecific but highly useful markers that help distinguish inflammatory from non-inflammatory conditions. A is incorrect because ANA is nonspecific and is primarily used for suspected connective tissue diseases (e.g., lupus, Sjögren's), not as a first-line test for inflammatory arthritis. A positive ANA can be found in many conditions and even healthy individuals. B is incorrect — while RF and anti-CCP are important for confirming RA specifically, CRP/ESR should be ordered first to establish that inflammation is present. RF and anti-CCP are more specific follow-up tests once inflammation is confirmed. D is incorrect because a CMP evaluates metabolic function (electrolytes, renal, hepatic) and does not assess for inflammation or support a diagnosis of inflammatory arthritis.",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "easy"
+  },
+  {
+    "id": 180,
+    "category": "GU",
+    "subcategory": "HIV Management",
+    "stem": "A 34-year-old man diagnosed with HIV 6 months ago has been adherent to antiretroviral therapy (ART). His most recent viral load is <20 copies/mL (undetectable) and CD4 count is 580 cells/mm³. He is in a serodiscordant relationship with an HIV-negative male partner. He asks about the risk of transmitting HIV to his partner through sexual contact. What is the most accurate counseling?",
+    "options": [
+      "He should always use condoms because ART reduces but does not eliminate transmission risk",
+      "Transmission risk is eliminated only if his CD4 count exceeds 500 cells/mm³",
+      "With a sustained undetectable viral load (<200 copies/mL), the risk of sexual transmission is effectively zero — 'undetectable equals untransmittable'",
+      "He should avoid sexual contact entirely until he has been on ART for at least 2 years"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. 'Undetectable = Untransmittable' (U=U) means that when a person living with HIV achieves and maintains an undetectable viral load (<200 copies/mL) through consistent ART adherence, the risk of sexual transmission is effectively zero. This is supported by large studies (PARTNER, PARTNER2, HPTN 052) showing zero linked transmissions from virally suppressed partners. Viral load is the most reliable indicator of treatment response and transmission risk. A is incorrect because while condoms remain a valid risk-reduction strategy, the statement that ART 'reduces but does not eliminate' transmission is outdated — U=U has been validated with robust evidence. B is incorrect because transmission risk depends on viral load, not CD4 count. A person can have a high CD4 and detectable viral load, or vice versa. C is correct. D is incorrect because there is no 2-year waiting period. Most patients achieve viral suppression within 8-12 weeks of starting ART. Once confirmed undetectable on two consecutive checks, U=U applies.",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "medium"
+  },
+  {
+    "id": 181,
+    "category": "GU",
+    "subcategory": "STI Screening",
+    "stem": "A 22-year-old sexually active woman presents for a routine well-woman visit. She has no urinary or vaginal symptoms. She reports one new sexual partner in the past 6 months and inconsistent condom use. Her last STI screening was 14 months ago and was negative. What is the most appropriate screening recommendation?",
+    "options": [
+      "No screening is needed since she is asymptomatic and was negative last year",
+      "Screen only if she develops symptoms such as vaginal discharge or dysuria",
+      "Screen for Chlamydia trachomatis (and gonorrhea), as routine screening is recommended for sexually active women under 25",
+      "Order a full STI panel including HIV, syphilis, hepatitis B, and herpes only if she has more than 3 lifetime partners"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. USPSTF and CDC recommend routine annual screening for Chlamydia trachomatis in all sexually active women under 25 years, regardless of symptoms. This is because most chlamydia infections are asymptomatic ('silent'), and untreated infection can lead to pelvic inflammatory disease (PID), infertility, and ectopic pregnancy. Gonorrhea screening is also recommended for women under 25 with risk factors. A is incorrect because screening is recommended annually for women under 25 regardless of prior negative results — reinfection is common with new partners. B is incorrect because the entire rationale for screening is that most infections are ASYMPTOMATIC. Waiting for symptoms defeats the purpose of screening and allows silent disease to cause complications. D is incorrect because the threshold for chlamydia screening is not based on lifetime partner count — it is recommended for ALL sexually active women under 25. HIV screening is recommended at least once for all adults regardless of risk factors, but the most important screening here is chlamydia given her age and sexual activity.",
+    "source": "Comprehensive Review - Commonly Missed",
+    "difficulty": "easy"
+  },
+  {
+    "id": 182,
+    "category": "Diagnostic Testing",
+    "subcategory": "Abdominal Imaging",
+    "stem": "A 25-year-old man presents to the clinic with 18 hours of periumbilical pain that has migrated to the right lower quadrant. He has a low-grade fever of 38.2°C, nausea, and anorexia. On exam, there is rebound tenderness at McBurney's point. He is hemodynamically stable. He is not pregnant. What is the preferred imaging modality to confirm the diagnosis?",
+    "options": [
+      "Abdominal ultrasound",
+      "CT abdomen and pelvis WITHOUT IV contrast",
+      "CT abdomen and pelvis WITH IV contrast",
+      "Plain abdominal X-ray (KUB)"
+    ],
+    "correct": 2,
+    "explanation": "C is correct. In stable, nonpregnant adults, CT abdomen/pelvis WITH IV contrast is the preferred imaging for suspected appendicitis. Contrast enhances visualization of inflammatory changes, periappendiceal fat stranding, and complications such as perforation or abscess. This is an important distinction — CT WITH contrast is preferred for evaluating inflammation/infection, while CT WITHOUT contrast is preferred for kidney stones (where contrast can obscure calculi). A is incorrect — ultrasound is the first-line imaging for suspected appendicitis in CHILDREN and PREGNANT women (to avoid radiation), but CT with contrast is preferred in nonpregnant adults due to superior sensitivity and specificity. B is incorrect — non-contrast CT is the modality for nephrolithiasis, not appendicitis. Without contrast, appendiceal inflammation and early perforation are harder to detect. D is incorrect — plain abdominal X-ray has very poor sensitivity for appendicitis. It may show a fecalith in some cases but cannot reliably confirm or exclude the diagnosis.",
+    "source": "Comprehensive Review - Commonly Missed",
     "difficulty": "medium"
   }
 ]

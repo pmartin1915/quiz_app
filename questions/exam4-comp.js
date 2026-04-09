@@ -296,11 +296,11 @@ var EXAM4_COMP_DATA = {
       "stem": "A 45-year-old male with a history of lumbar disc herniation presents with a 2-day history of worsening bilateral leg weakness and pain radiating into both legs. This morning he noticed he could not void and had to catheterize himself. He also reports decreased sensation in the perineum and inner thighs. What is the most appropriate next step?",
       "options": [
         "Schedule an outpatient MRI lumbar spine within 1 week",
-        "Prescribe NSAIDs and a methylprednisolone dose pack and reassess in 48 hours",
         "STAT MRI lumbar spine and urgent neurosurgical consultation",
+        "Prescribe NSAIDs and a methylprednisolone dose pack and reassess in 48 hours",
         "Obtain plain radiographs of the lumbar spine and refer to orthopedics"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "This is cauda equina syndrome (CES): bilateral sciatica, urinary retention requiring catheterization, and saddle anesthesia (decreased perineal/inner thigh sensation). CES is a neurosurgical emergency — any delay in decompression risks permanent bowel, bladder, and sexual dysfunction. STAT MRI is the imaging of choice and must be obtained immediately alongside urgent neurosurgical consultation. Option A is catastrophically wrong — a 1-week MRI in CES results in permanent deficits. Option B is wrong because steroids and NSAIDs have no role in this emergency; this needs decompression surgery, not anti-inflammatories. Option D is wrong because plain films cannot visualize soft tissue compression of the cauda equina; MRI is mandatory, and orthopedic referral wastes time when neurosurgery is needed.",
       "source": "Comprehensive Review",
       "difficulty": "hard"
@@ -655,6 +655,166 @@ var EXAM4_COMP_DATA = {
       "correct": 1,
       "explanation": "Cell-free fetal DNA (NIPT) is a screening test, and a positive result requires confirmatory diagnostic testing (option B). This is a critical distinction: Screening tests estimate risk — they are not diagnostic. NIPT analyzes fetal DNA fragments in maternal blood to calculate the probability of chromosomal abnormalities. NIPT has high sensitivity (~99%) and specificity (~99.9%) for Trisomy 21, but false positives occur (especially in low-risk populations). A positive NIPT must be confirmed with a diagnostic test (amniocentesis or CVS). Diagnostic tests are definitive: Amniocentesis (15–20 weeks): direct karyotype/chromosomal microarray of amniotic fluid cells. Chorionic villus sampling (CVS, 10–13 weeks): direct karyotype from placental tissue — can be done earlier than amniocentesis. A: Advanced maternal age (≥35) is a risk factor that increases the probability of Trisomy 21, but it is NOT diagnostic. AMA is an indication to discuss/offer screening and diagnostic options — not to proceed directly to amniocentesis. Age alone does not confirm a chromosomal abnormality. C: Elevated nuchal translucency (NT) on ultrasound is a screening finding that increases risk — it is not diagnostic. NT is part of first-trimester combined screening (NT + serum PAPP-A + free beta-hCG). Elevated NT is also associated with cardiac defects and other abnormalities. D: CVS is the opposite of a screening test — it is a diagnostic invasive procedure that provides a definitive karyotype. Screening tests are noninvasive (blood draw, ultrasound); diagnostic tests are invasive (amniocentesis, CVS).",
       "source": "Comprehensive Review",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "category": "MSK",
+      "subcategory": "Pediatric Hip Pain",
+      "stem": "A 5-year-old boy is brought in by his mother for right hip pain and a limp that started 2 days ago. He had an upper respiratory infection last week. He is afebrile with a temperature of 37.1°C. He is able to bear weight but walks with an antalgic gait. On exam, there is limited internal rotation of the right hip. CBC shows WBC 9,200 and ESR 18 mm/hr. What is the most likely diagnosis and appropriate management?",
+      "options": [
+        "Septic arthritis — admit for IV antibiotics and joint aspiration",
+        "Legg-Calvé-Perthes disease — order hip MRI and refer to orthopedics",
+        "Toxic (transient) synovitis — NSAIDs, rest, and close outpatient follow-up",
+        "Slipped capital femoral epiphysis — non-weight-bearing and urgent orthopedic referral"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. This is classic toxic (transient) synovitis: child age 3-8, hip pain with limp following a viral illness, low-grade or absent fever, able to bear weight, and only mildly elevated inflammatory markers (ESR 18). Management is conservative — NSAIDs, rest as tolerated, and follow-up in 24-48 hours. A is incorrect because septic arthritis presents with high fever, inability to bear weight, toxic appearance, and markedly elevated ESR/CRP (typically ESR >40). This child is afebrile with mild labs. B is incorrect because Legg-Calvé-Perthes is avascular necrosis of the femoral head, presents with insidious onset over weeks, and the child is typically ages 4-10 without a preceding viral illness. C is incorrect because SCFE occurs in obese adolescents (ages 10-16), not 5-year-olds, and presents with groin/thigh pain and obligate external rotation.",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "category": "MSK",
+      "subcategory": "Pediatric Orthopedics",
+      "stem": "A 4-year-old girl is brought to the clinic by her parents who are concerned that her legs look 'crooked.' On exam, she has bilateral symmetric valgus (knock-knee) alignment. She runs and plays without pain or difficulty. There is no joint swelling, tenderness, or limb-length discrepancy. What is the most appropriate management?",
+      "options": [
+        "Refer to orthopedics for bracing to correct the alignment before skeletal maturity",
+        "Order bilateral knee X-rays to rule out rickets or Blount disease",
+        "Reassurance and observation — physiologic genu valgum resolves spontaneously by age 7",
+        "Start vitamin D supplementation and calcium to promote normal bone development"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. Bilateral symmetric genu valgum (knock-knees) in a child ages 2-5 without pain, functional impairment, or asymmetry is a normal developmental variant (physiologic genu valgum). It typically resolves by age 7. Management is reassurance and observation with follow-up every 4-6 months. A is incorrect because bracing is not indicated for physiologic genu valgum — it resolves spontaneously. Bracing would only be considered for pathologic causes. B is incorrect because X-rays are not needed when the presentation is classic physiologic genu valgum (bilateral, symmetric, painless, age-appropriate). Imaging is reserved for asymmetric, painful, or progressive cases. D is incorrect because this is a normal developmental variant, not a nutritional deficiency. Vitamin D would only be indicated if rickets were suspected (asymmetric bowing, widened metaphyses, poor nutrition history).",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "category": "MSK",
+      "subcategory": "Lumbar Radiculopathy",
+      "stem": "A 42-year-old man presents with 3 weeks of low back pain radiating down his right posterior leg to the lateral foot. He reports numbness on the lateral aspect of his right foot. On exam, straight leg raise is positive on the right at 40 degrees. The right Achilles reflex is diminished. He has no bowel or bladder changes and no progressive weakness. What is the most appropriate initial management?",
+      "options": [
+        "Urgent MRI of the lumbar spine and neurosurgery referral",
+        "Epidural steroid injection for immediate pain relief",
+        "Conservative management: NSAIDs, activity as tolerated, and physical therapy",
+        "Prescribe oxycodone for pain control and strict bed rest for 2 weeks"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. This patient has lumbar disc herniation with S1 radiculopathy (posterior leg pain, lateral foot numbness, diminished Achilles reflex, positive SLR). In the ABSENCE of red flags (no progressive weakness, no bowel/bladder dysfunction, no cauda equina signs), initial management is conservative: NSAIDs or acetaminophen, remaining active as tolerated, and physical therapy. Most patients improve within 6-8 weeks. MRI is not indicated initially unless symptoms persist beyond 6 weeks or neurologic deficits progress. A is incorrect because urgent MRI and neurosurgery are reserved for red flags — progressive weakness, bowel/bladder changes (cauda equina), or failure to improve after 6 weeks of conservative care. B is incorrect because epidural steroid injections are a second-line option considered after failure of conservative management, not a first-line treatment. D is incorrect because opioids are not first-line for radiculopathy, and strict bed rest is harmful — evidence shows that staying active as tolerated leads to better outcomes than bed rest.",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "category": "MSK",
+      "subcategory": "Vertebral Compression Fracture",
+      "stem": "A 74-year-old woman with known osteoporosis presents with acute mid-back pain that started after she bent over to pick up groceries. She points to a specific area in her thoracolumbar spine that is exquisitely tender to palpation. She has no leg weakness, numbness, or bowel/bladder changes. What is the most appropriate initial imaging?",
+      "options": [
+        "No imaging needed — treat conservatively as mechanical low back pain",
+        "MRI of the thoracolumbar spine to evaluate for cord compression",
+        "Plain X-ray of the thoracolumbar spine",
+        "CT of the abdomen and pelvis to evaluate for aortic pathology"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. This presentation is consistent with a vertebral compression fracture: elderly patient with known osteoporosis, acute focal vertebral tenderness after minimal trauma (bending). Plain X-ray is the appropriate initial imaging modality — it can confirm the fracture and guide management (pain control, bracing, and optimization of osteoporosis treatment). A is incorrect — this is NOT simple mechanical back pain. The red flags here (osteoporosis + acute focal vertebral tenderness + minimal trauma mechanism) mandate imaging. Treating without imaging risks missing a compression fracture. B is incorrect because MRI is reserved for cases with neurologic symptoms (weakness, numbness, bowel/bladder changes) or suspected malignancy. This patient has no neurologic deficits, so X-ray is the appropriate first step. D is incorrect because the focal vertebral tenderness and osteoporosis history point to compression fracture, not aortic pathology. CT angiography would be considered if there were signs of aortic dissection (tearing pain, unequal pulses, hemodynamic instability).",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "category": "MSK",
+      "subcategory": "Hip Osteoarthritis",
+      "stem": "A 63-year-old woman presents with 4 months of gradually worsening right groin pain. The pain is worse with walking and climbing stairs and improves with rest. She reports about 20 minutes of morning stiffness that resolves with movement. On exam, there is decreased internal rotation of the right hip and pain with passive motion. What is the most appropriate initial imaging?",
+      "options": [
+        "MRI of the right hip to evaluate for avascular necrosis",
+        "CT scan of the pelvis for detailed bony assessment",
+        "Plain radiographs of the right hip (AP pelvis and lateral)",
+        "No imaging needed — clinical diagnosis is sufficient to start treatment"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. This presentation is consistent with hip osteoarthritis: gradual onset groin pain, short-duration morning stiffness (<30 minutes), pain with weight-bearing that improves with rest, and decreased internal rotation. Plain radiographs are the appropriate initial imaging — they may show joint space narrowing, osteophytes, and subchondral sclerosis, confirming the diagnosis. A is incorrect because MRI is not first-line for suspected osteoarthritis. MRI is reserved for atypical presentations or concern for alternative diagnoses such as avascular necrosis (which typically occurs in younger, active patients with risk factors like steroid use or sickle cell disease). B is incorrect because CT is not the initial imaging for degenerative joint disease — it adds radiation without significant diagnostic advantage over plain films for this indication. D is incorrect because while the clinical picture is suggestive, imaging confirms the diagnosis, establishes a baseline, and rules out other pathology before initiating a treatment plan.",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "category": "OB",
+      "subcategory": "Postpartum Endometritis",
+      "stem": "A 28-year-old woman presents 4 days after an emergency cesarean delivery with fever of 38.9°C, uterine tenderness, and foul-smelling lochia. Her heart rate is 104 bpm. She is currently breastfeeding. What is the most appropriate management?",
+      "options": [
+        "Obtain pelvic ultrasound and CT scan before starting any treatment",
+        "Prescribe oral metronidazole alone and arrange follow-up in one week",
+        "Start broad-spectrum antibiotics compatible with breastfeeding and arrange close follow-up",
+        "Reassure the patient that low-grade fevers are normal post-cesarean and recheck in 48 hours"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. This is postpartum endometritis — infection of the uterus occurring 3-5 days after delivery, with increased risk after cesarean section. The classic presentation is fever, uterine tenderness, tachycardia, and abnormal/foul-smelling lochia. Management is prompt initiation of broad-spectrum antibiotics compatible with breastfeeding (e.g., clindamycin plus gentamicin, or clindamycin plus augmentin). Imaging is NOT required before starting treatment when the clinical picture is clear. A is incorrect because imaging should not delay treatment in a clinically obvious presentation. Ultrasound may be considered if there is concern for retained products or abscess, but the diagnosis here is clinical and treatment should begin immediately. B is incorrect because oral metronidazole alone does not provide adequate coverage — endometritis is typically polymicrobial and requires broad-spectrum combination therapy. D is incorrect — 38.9°C with uterine tenderness and foul lochia is NOT normal. This is a clinically significant infection requiring prompt treatment to prevent sepsis.",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "category": "Diagnostic Testing",
+      "subcategory": "Inflammatory Markers",
+      "stem": "A 48-year-old woman presents with 3 months of bilateral hand pain, morning stiffness lasting over an hour, and swelling of her MCP and PIP joints. You suspect inflammatory arthritis such as rheumatoid arthritis. Which initial laboratory test is most appropriate to assess for systemic inflammation and support your clinical suspicion?",
+      "options": [
+        "Antinuclear antibody (ANA)",
+        "Rheumatoid factor (RF) and anti-CCP antibodies",
+        "C-reactive protein (CRP) and/or erythrocyte sedimentation rate (ESR)",
+        "Comprehensive metabolic panel (CMP)"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. When the clinical presentation suggests inflammatory arthritis, CRP and/or ESR are the most appropriate initial tests to confirm systemic inflammation, support the diagnosis, and establish baseline disease activity. These are nonspecific but highly useful markers that help distinguish inflammatory from non-inflammatory conditions. A is incorrect because ANA is nonspecific and is primarily used for suspected connective tissue diseases (e.g., lupus, Sjögren's), not as a first-line test for inflammatory arthritis. A positive ANA can be found in many conditions and even healthy individuals. B is incorrect — while RF and anti-CCP are important for confirming RA specifically, CRP/ESR should be ordered first to establish that inflammation is present. RF and anti-CCP are more specific follow-up tests once inflammation is confirmed. D is incorrect because a CMP evaluates metabolic function (electrolytes, renal, hepatic) and does not assess for inflammation or support a diagnosis of inflammatory arthritis.",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "category": "GU",
+      "subcategory": "HIV Management",
+      "stem": "A 34-year-old man diagnosed with HIV 6 months ago has been adherent to antiretroviral therapy (ART). His most recent viral load is <20 copies/mL (undetectable) and CD4 count is 580 cells/mm³. He is in a serodiscordant relationship with an HIV-negative male partner. He asks about the risk of transmitting HIV to his partner through sexual contact. What is the most accurate counseling?",
+      "options": [
+        "He should always use condoms because ART reduces but does not eliminate transmission risk",
+        "Transmission risk is eliminated only if his CD4 count exceeds 500 cells/mm³",
+        "With a sustained undetectable viral load (<200 copies/mL), the risk of sexual transmission is effectively zero — 'undetectable equals untransmittable'",
+        "He should avoid sexual contact entirely until he has been on ART for at least 2 years"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. 'Undetectable = Untransmittable' (U=U) means that when a person living with HIV achieves and maintains an undetectable viral load (<200 copies/mL) through consistent ART adherence, the risk of sexual transmission is effectively zero. This is supported by large studies (PARTNER, PARTNER2, HPTN 052) showing zero linked transmissions from virally suppressed partners. Viral load is the most reliable indicator of treatment response and transmission risk. A is incorrect because while condoms remain a valid risk-reduction strategy, the statement that ART 'reduces but does not eliminate' transmission is outdated — U=U has been validated with robust evidence. B is incorrect because transmission risk depends on viral load, not CD4 count. A person can have a high CD4 and detectable viral load, or vice versa. C is correct. D is incorrect because there is no 2-year waiting period. Most patients achieve viral suppression within 8-12 weeks of starting ART. Once confirmed undetectable on two consecutive checks, U=U applies.",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "category": "GU",
+      "subcategory": "STI Screening",
+      "stem": "A 22-year-old sexually active woman presents for a routine well-woman visit. She has no urinary or vaginal symptoms. She reports one new sexual partner in the past 6 months and inconsistent condom use. Her last STI screening was 14 months ago and was negative. What is the most appropriate screening recommendation?",
+      "options": [
+        "No screening is needed since she is asymptomatic and was negative last year",
+        "Screen only if she develops symptoms such as vaginal discharge or dysuria",
+        "Screen for Chlamydia trachomatis (and gonorrhea), as routine screening is recommended for sexually active women under 25",
+        "Order a full STI panel including HIV, syphilis, hepatitis B, and herpes only if she has more than 3 lifetime partners"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. USPSTF and CDC recommend routine annual screening for Chlamydia trachomatis in all sexually active women under 25 years, regardless of symptoms. This is because most chlamydia infections are asymptomatic ('silent'), and untreated infection can lead to pelvic inflammatory disease (PID), infertility, and ectopic pregnancy. Gonorrhea screening is also recommended for women under 25 with risk factors. A is incorrect because screening is recommended annually for women under 25 regardless of prior negative results — reinfection is common with new partners. B is incorrect because the entire rationale for screening is that most infections are ASYMPTOMATIC. Waiting for symptoms defeats the purpose of screening and allows silent disease to cause complications. D is incorrect because the threshold for chlamydia screening is not based on lifetime partner count — it is recommended for ALL sexually active women under 25. HIV screening is recommended at least once for all adults regardless of risk factors, but the most important screening here is chlamydia given her age and sexual activity.",
+      "source": "Comprehensive Review - Commonly Missed",
+      "difficulty": "easy"
+    },
+    {
+      "id": 51,
+      "category": "Diagnostic Testing",
+      "subcategory": "Abdominal Imaging",
+      "stem": "A 25-year-old man presents to the clinic with 18 hours of periumbilical pain that has migrated to the right lower quadrant. He has a low-grade fever of 38.2°C, nausea, and anorexia. On exam, there is rebound tenderness at McBurney's point. He is hemodynamically stable. He is not pregnant. What is the preferred imaging modality to confirm the diagnosis?",
+      "options": [
+        "Abdominal ultrasound",
+        "CT abdomen and pelvis WITHOUT IV contrast",
+        "CT abdomen and pelvis WITH IV contrast",
+        "Plain abdominal X-ray (KUB)"
+      ],
+      "correct": 2,
+      "explanation": "C is correct. In stable, nonpregnant adults, CT abdomen/pelvis WITH IV contrast is the preferred imaging for suspected appendicitis. Contrast enhances visualization of inflammatory changes, periappendiceal fat stranding, and complications such as perforation or abscess. This is an important distinction — CT WITH contrast is preferred for evaluating inflammation/infection, while CT WITHOUT contrast is preferred for kidney stones (where contrast can obscure calculi). A is incorrect — ultrasound is the first-line imaging for suspected appendicitis in CHILDREN and PREGNANT women (to avoid radiation), but CT with contrast is preferred in nonpregnant adults due to superior sensitivity and specificity. B is incorrect — non-contrast CT is the modality for nephrolithiasis, not appendicitis. Without contrast, appendiceal inflammation and early perforation are harder to detect. D is incorrect — plain abdominal X-ray has very poor sensitivity for appendicitis. It may show a fecalith in some cases but cannot reliably confirm or exclude the diagnosis.",
+      "source": "Comprehensive Review - Commonly Missed",
       "difficulty": "medium"
     }
   ]

@@ -217,10 +217,10 @@ var EXAM4_PRIORITY_DATA = {
       "options": [
         "Schedule an outpatient MRI for next week and return to clinic in one month",
         "Start aspirin 81 mg daily and have him return to clinic in 2 weeks",
-        "Arrange same-day or next-day urgent evaluation including brain imaging, vascular imaging, and cardiac workup, and initiate antiplatelet therapy",
-        "Admit to the hospital for IV heparin infusion given his high ABCD2 score"
+        "Admit to the hospital for IV heparin infusion given his high ABCD2 score",
+        "Arrange same-day or next-day urgent evaluation including brain imaging, vascular imaging, and cardiac workup, and initiate antiplatelet therapy"
       ],
-      "correct": 2,
+      "correct": 3,
       "explanation": "C is correct because this patient had a TIA (transient neurologic deficit resolving within 24 hours without infarction) with a high ABCD2 score of 6, indicating 8–12% stroke risk within 48 hours. TIA is a medical emergency requiring same-day or urgent workup: MRI with DWI (to detect small infarcts), carotid imaging (duplex ultrasound or CTA), cardiac evaluation (EKG, echocardiography, Holter monitoring), and immediate initiation of dual antiplatelet therapy (aspirin + clopidogrel for 21 days per recent guidelines) plus statin therapy. A is incorrect because delaying workup for a week is dangerous given the high early stroke risk; a TIA is a warning sign that requires urgent action, not routine follow-up. B is incorrect because aspirin monotherapy is insufficient for high-risk TIA; dual antiplatelet therapy reduces early stroke risk. D is incorrect because IV heparin is not the standard of care for TIA — antiplatelet therapy is the preferred approach for non-cardioembolic TIA.",
       "source": "Module 11 - Neurological System",
       "difficulty": "hard"
@@ -537,10 +537,10 @@ var EXAM4_PRIORITY_DATA = {
       "options": [
         "Methylprednisolone 1000 mg IV daily for 3–5 days",
         "Intravenous immunoglobulin (IVIG) 0.4 g/kg/day for 5 days",
-        "Plasmapheresis or IVIG, both equally effective; steroids would not help",
-        "Observation only; GBS resolves spontaneously without treatment in most patients"
+        "Observation only; GBS resolves spontaneously without treatment in most patients",
+        "Plasmapheresis or IVIG, both equally effective; steroids would not help"
       ],
-      "correct": 2,
+      "correct": 3,
       "explanation": "C is correct because both IVIG and plasmapheresis are equally effective treatments for GBS and shorten the duration of the illness and accelerate recovery. The choice depends on availability, patient factors, and center experience. Steroids (methylprednisolone) are NOT effective for GBS — this is one of the highest-yield exceptions in neurology because most inflammatory conditions improve with steroids, but GBS does not. A is incorrect because IV methylprednisolone is the treatment for MS relapses, not GBS. Using steroids in GBS is a classic trap answer that is explicitly incorrect. B is incorrect only because it omits plasmapheresis as an equally valid option — IVIG alone is presented as the only option, which is incomplete. D is incorrect because while many GBS patients do recover, it can take months without treatment, and treatment significantly accelerates recovery and reduces residual disability; severe cases can progress to complete paralysis and respiratory failure.",
       "source": "Module 11 - Neurological System",
       "difficulty": "medium"
@@ -712,11 +712,11 @@ var EXAM4_PRIORITY_DATA = {
       "stem": "A 62-year-old man with hypertension and atrial fibrillation presents with acute onset of vertigo, nausea, vomiting, and difficulty walking. He states the room is 'spinning constantly' — it is not triggered by position changes. On exam, he has direction-changing nystagmus, his finger-nose test is abnormal bilaterally, gait is severely ataxic, and he has dysarthria. His blood pressure is 178/102 mmHg. What is the most appropriate next step?",
       "options": [
         "Perform the Epley maneuver and prescribe meclizine",
-        "Diagnose Meniere's disease and advise a low-sodium diet",
         "Treat as a neurological emergency; immediately transfer to the ED for urgent CT/MRI to rule out stroke or cerebellar hemorrhage",
+        "Diagnose Meniere's disease and advise a low-sodium diet",
         "Prescribe ondansetron and follow up tomorrow"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "C is correct because this patient has central vertigo, which is a neurological emergency. The red flag features of central vertigo are all present: sustained constant vertigo (not positional/brief), direction-changing nystagmus, cerebellar signs (ataxia, dysmetria on finger-nose, dysarthria), severe gait impairment, and vascular risk factors (hypertension, atrial fibrillation). This presentation is consistent with posterior fossa stroke (cerebellar or brainstem). The HINTS exam findings (Normal head impulse + direction-changing nystagmus + skew deviation) indicate a central lesion. This requires immediate CT/MRI of the brain and urgent neurological care — cerebellar stroke/hemorrhage can cause herniation and death. A is incorrect because the Epley maneuver is for BPPV (peripheral), which presents with brief positional vertigo and no neurological signs. Performing Epley on a patient with a cerebellar stroke would delay life-saving diagnosis. B is incorrect because Meniere's disease presents with episodic vertigo lasting 20 min–several hours plus unilateral hearing loss and tinnitus — not constant vertigo with cerebellar signs and neurological deficits. D is incorrect because this is a vascular emergency; prescribing an antiemetic and delaying evaluation is dangerous and potentially fatal.",
       "source": "Module 11 - Neurological System",
       "difficulty": "hard"
@@ -775,12 +775,12 @@ var EXAM4_PRIORITY_DATA = {
       "subcategory": "Neurodegenerative Disorders",
       "stem": "A 77-year-old man presents with a 1-year history of slowly worsening difficulty walking, urinary incontinence that developed over the same period, and his wife reports increasing forgetfulness. He walks with very small shuffling steps without picking his feet up off the floor. MRI brain shows markedly enlarged ventricles disproportionate to the degree of sulcal atrophy. What is the most likely diagnosis and the treatment that often produces rapid improvement?",
       "options": [
-        "Parkinson's disease; start levodopa/carbidopa",
-        "Vascular dementia; optimize cardiovascular risk factors",
         "Normal pressure hydrocephalus; ventriculoperitoneal shunt placement",
+        "Vascular dementia; optimize cardiovascular risk factors",
+        "Parkinson's disease; start levodopa/carbidopa",
         "Alzheimer's disease with gait apraxia; start memantine"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "C is correct because this patient has the classic triad of Normal Pressure Hydrocephalus (NPH): 'Wet, Wobbly, Wacky' — urinary incontinence (Wet), magnetic gait with feet dragging (Wobbly), and cognitive impairment (Wacky). The MRI finding of enlarged ventricles out of proportion to sulcal atrophy is classic. NPH is a treatable (reversible) cause of dementia, and VP shunt placement often results in rapid and dramatic improvement, particularly in gait. A is incorrect because while Parkinson's causes a shuffling gait and can cause cognitive decline (Parkinson's Disease Dementia), it also has resting tremor and cogwheel rigidity — not mentioned here. The MRI finding and incontinence appearing concurrently with gait changes point to NPH. B is incorrect because vascular dementia follows a stepwise progression linked to prior strokes with focal neurological signs and executive dysfunction — not the triad of gait/incontinence/cognition with enlarged ventricles. D is incorrect because Alzheimer's does not characteristically cause prominent gait disturbance early in the course, incontinence is late, and the MRI would show cortical atrophy rather than disproportionate ventricular enlargement.",
       "source": "Module 11 - Neurological System",
       "difficulty": "medium"
@@ -824,11 +824,11 @@ var EXAM4_PRIORITY_DATA = {
       "stem": "A 34-year-old man is diagnosed with MDD and started on sertraline 50 mg daily. He returns at 4 weeks reporting modest improvement but still significant depressive symptoms. He has tolerated the medication well. What is the most appropriate next step?",
       "options": [
         "Switch to a different SSRI immediately",
-        "Add bupropion augmentation now",
         "Increase sertraline to 100 mg and reassess in 4 more weeks",
+        "Add bupropion augmentation now",
         "Refer to psychiatry for failure to respond"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "C is correct. The standard approach is to titrate to a mid-range therapeutic dose before declaring treatment failure. At 4 weeks on 50 mg (starting dose), the patient has had a partial response with good tolerability — this warrants dose increase to 100 mg and another 4-week trial before considering a switch or augmentation. A is incorrect: switching is premature after only 4 weeks at starting dose with partial response and good tolerability. B is incorrect: augmentation is considered after an adequate trial (therapeutic dose x4-6 weeks), not at 4 weeks on starting dose. D is incorrect: referral criteria require 2-3 failed adequate trials (therapeutic dose x1 month each); this patient has completed only one inadequate trial.",
       "source": "Module 12 - Psychosocial and Mental Health Disorders",
       "difficulty": "medium"
@@ -841,10 +841,10 @@ var EXAM4_PRIORITY_DATA = {
       "options": [
         "Paroxetine (Paxil)",
         "Mirtazapine (Remeron)",
-        "Bupropion (Wellbutrin)",
-        "Amitriptyline (Elavil)"
+        "Amitriptyline (Elavil)",
+        "Bupropion (Wellbutrin)"
       ],
-      "correct": 2,
+      "correct": 3,
       "explanation": "C is correct. Bupropion (NDRI — norepinephrine-dopamine reuptake inhibitor) is activating/energizing, is weight-neutral or associated with modest weight loss, and is the best fit for atypical MDD features of hypersomnia and weight gain. A is incorrect: paroxetine is the most sedating and most weight-gain-associated SSRI — the worst choice for this patient. B is incorrect: mirtazapine (NaSSA) causes significant sedation and weight gain — it would worsen her complaints. D is incorrect: amitriptyline (TCA) is associated with significant weight gain, sedation, and dangerous anticholinergic side effects — not a first- or second-line agent.",
       "source": "Module 12 - Psychosocial and Mental Health Disorders",
       "difficulty": "medium"
@@ -857,10 +857,10 @@ var EXAM4_PRIORITY_DATA = {
       "options": [
         "5 criteria; yes, she has MDD",
         "5 criteria; no, she needs at least 2 weeks but must include depressed mood or anhedonia — she qualifies",
-        "5 criteria; yes — she meets the minimum 5 of 9 criteria for at least 2 weeks with functional impairment and no history of mania",
-        "3 criteria; no, she needs at least 7 criteria for MDD"
+        "3 criteria; no, she needs at least 7 criteria for MDD",
+        "5 criteria; yes — she meets the minimum 5 of 9 criteria for at least 2 weeks with functional impairment and no history of mania"
       ],
-      "correct": 2,
+      "correct": 3,
       "explanation": "C is correct. MDD requires: 5 or more of 9 symptoms for at least 2 weeks; at least ONE must be either depressed mood or anhedonia; symptoms cause clinically significant distress or impairment; no manic/hypomanic history. This patient has 5 symptoms (meeting the threshold), for 3 weeks (>2 weeks), with work impairment, with both core symptoms present, and no mania history — she meets full criteria for MDD. A is technically correct on count but the explanation is incomplete. B is incorrect in format. D is incorrect: the threshold is 5 of 9 symptoms, not 7.",
       "source": "Module 12 - Psychosocial and Mental Health Disorders",
       "difficulty": "easy"
@@ -1351,12 +1351,12 @@ var EXAM4_PRIORITY_DATA = {
       "subcategory": "Substance Use Disorders",
       "stem": "A 45-year-old man presents for a routine visit. AUDIT-C screening is positive. He reports drinking 6-8 beers daily for the past 5 years and has tried to cut back multiple times without success. He continues despite his wife threatening to leave and his employer warning him about performance. He denies withdrawal symptoms when not drinking. Using DSM-5 criteria, what MINIMUM severity of alcohol use disorder does he have?",
       "options": [
-        "Mild AUD (2-3 criteria)",
-        "Moderate AUD (4-5 criteria)",
         "Severe AUD (6 or more criteria)",
+        "Moderate AUD (4-5 criteria)",
+        "Mild AUD (2-3 criteria)",
         "At-risk drinking, not AUD — he must have withdrawal to qualify"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "C is correct. DSM-5 AUD is classified by number of criteria met (of 11 total): Mild = 2-3, Moderate = 4-5, Severe = 6+. This patient meets at minimum: (1) persistent desire/unsuccessful efforts to cut back, (2) continued use despite interpersonal problems (marriage), (3) continued use despite recurrent social/occupational consequences (job warning), (4) drinking larger amounts or for longer than intended (6-8 beers daily), (5) a great deal of time spent drinking. That is already 5 criteria — Moderate. Given the pattern described, he likely meets additional criteria, potentially reaching Severe. A is incorrect: 2-3 criteria = Mild; this patient's presentation clearly exceeds mild. D is incorrect: withdrawal symptoms are one of 11 criteria; their absence does not rule out AUD — physical dependence is not required for the diagnosis.",
       "source": "Module 12 - Psychosocial and Mental Health Disorders",
       "difficulty": "medium"
@@ -1367,12 +1367,12 @@ var EXAM4_PRIORITY_DATA = {
       "subcategory": "Substance Use Disorders",
       "stem": "A 38-year-old woman with moderate AUD wants to stop drinking and is asking about medication options. She has no liver disease and is currently sober for 2 weeks. Which medication is the FDA-approved FIRST-LINE pharmacotherapy for alcohol use disorder?",
       "options": [
-        "Disulfiram (Antabuse) — creates unpleasant reaction to alcohol to deter use",
-        "Acamprosate (Campral) — reduces craving and supports abstinence",
         "Naltrexone (Vivitrol/ReVia) — blocks opioid receptors, reduces craving and reward",
+        "Acamprosate (Campral) — reduces craving and supports abstinence",
+        "Disulfiram (Antabuse) — creates unpleasant reaction to alcohol to deter use",
         "Topiramate (Topamax) — off-label but effective for craving reduction"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "C is correct. Naltrexone (oral ReVia or monthly injection Vivitrol) is the first-line FDA-approved pharmacotherapy for AUD. It works by blocking opioid mu-receptors, reducing the euphoric/rewarding effects of alcohol and decreasing craving. It is effective for both abstinence and reduction-of-use goals. It requires liver function consideration (contraindicated in acute hepatitis or liver failure). A is incorrect: disulfiram (Antabuse) is third-line — it creates a severe, aversive reaction when alcohol is consumed (flushing, nausea, vomiting, hypotension) and requires motivated patients; poor adherence limits effectiveness. B is incorrect: acamprosate is second-line — effective for reducing craving and supporting abstinence once achieved, but inferior evidence compared to naltrexone as monotherapy. D is incorrect: topiramate has evidence but is not FDA-approved for AUD — it is an off-label option when first- and second-line agents fail.",
       "source": "Module 12 - Psychosocial and Mental Health Disorders",
       "difficulty": "medium"
