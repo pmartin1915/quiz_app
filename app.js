@@ -11,6 +11,7 @@ const EXAMS = [
     { id: 'exam2oh', name: 'Exam 2 - Office Hours Review', data: 'EXAM2_OH_DATA', categories: ["Men's Health", 'Musculoskeletal', 'Rheumatology & Immunology'], questionCount: 12, timeSeconds: 18 * 60 },
     { id: 'exam3', name: 'Exam 3', data: 'EXAM3_DATA', categories: ['Hematology', 'Infectious Diseases', 'Genetics & Genomics'], questionCount: 70, timeSeconds: 105 * 60 },
     { id: 'exam4p', name: 'Exam 4 — Priority', data: 'EXAM4_PRIORITY_DATA', categories: ['Neurology', 'Mental Health', 'Cardiovascular', 'Pulmonary', 'GI', 'Endocrine', 'HEENT', 'Integumentary'], questionCount: 100, timeSeconds: 150 * 60 },
+    { id: 'exam4c', name: 'Exam 4 — Comp / Other', data: 'EXAM4_COMP_DATA', categories: ['Hematology', 'Infectious Diseases', 'OB', 'OB/GYN', 'GYN', 'MSK', 'Rheumatology', 'GU', "Men's Health", 'Genetics'], questionCount: 41, timeSeconds: 62 * 60 },
     { id: 'exam4', name: 'Exam 4 — Full', data: 'EXAM4_DATA', categories: ['Neurology', 'Mental Health', 'Hematology', 'Infectious Diseases', 'Cardiovascular', 'OB', 'OB/GYN', 'GYN', 'MSK', 'Rheumatology', 'GI', 'Endocrine', 'Integumentary', 'Pulmonary', 'GU', "Men's Health", 'Genetics', 'HEENT'], questionCount: 100, timeSeconds: 150 * 60 }
 ];
 const DEFAULT_CATEGORIES = ['OB', 'GYN', 'GU', 'STI', 'Contraception', 'Diagnostic Testing'];
